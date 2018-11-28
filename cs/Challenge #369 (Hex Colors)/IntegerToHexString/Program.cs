@@ -1,13 +1,4 @@
-﻿/*
- * 
-
- * 
-    @author: Jose A Huerta
-*/
-
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +24,7 @@ namespace IntegerToHexString
             return "#" + values[0].ToString("X2") + values[1].ToString("X2") + values[2].ToString("X2");
         }
 
+        // Optional Bonus
         public static string Blend(List<string> list)
         {
             double r = 0;
@@ -54,6 +46,7 @@ namespace IntegerToHexString
             return HexColor(r + ", " + g + ", " + b);
         }
 
+        // Test
         public static void Main(string[] args)
         {
             string[] input = 
